@@ -101,7 +101,7 @@ class MusicLibraryController
       song_choice = songs[input]
       puts "Playing #{song_choice.name} by #{song_choice.artist.name}"
     else 
-      nil
+      
    end
   end
 end
