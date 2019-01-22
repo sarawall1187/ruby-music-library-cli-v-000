@@ -85,14 +85,6 @@ class MusicLibraryController
    end
   end 
   
-  # def play_song
-  #   puts "Which song number would you like to play?"
-  #   input = gets.strip.to_i - 1
-  #   if input != nil 
-  #     song_choice = list_songs[input]
-  #     puts "Playing #{song_choice.name} by #{song_choice.artist.name}"
-  # end
-  # end
   def play_song
     puts "Which song number would you like to play?"
     input = gets.strip.to_i - 1
