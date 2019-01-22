@@ -100,7 +100,6 @@ class MusicLibraryController
      if songs[input] && input.betwee?(0, Song.all.count -1)
       song_choice = songs[input]
       puts "Playing #{song_choice.name} by #{song_choice.artist.name}"
-    end
    end
   end
 end
