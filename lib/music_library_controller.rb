@@ -100,7 +100,7 @@ class MusicLibraryController
      if songs[input]
       song_choice = songs[input]
       puts "Playing #{song_choice.name} by #{song_choice.artist.name}"
-    else 
+    binding.pry 
       
    end
   end
